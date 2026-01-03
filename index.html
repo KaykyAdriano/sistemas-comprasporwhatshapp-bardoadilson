@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cardapio Online</title>
+
+</head>
+<body>
+    <header><div class="cabeçalhoareadocliente">
+        <img src="Logo do bar do adilson.png" alt="">
+        <h2>Horario de funcionamento das 17:30 as 22:30</h2>
+       </header>
+
+       <div id="mercadorias">
+          <a href="#Porções">Porções</a>
+          <a href="#caldos">Caldos</a>
+          <a href="#cervejas">Cervejas</a>
+          <a href="#bebidas">Bebidas</a>
+          <a href="#destilados">Destilados</a>
+          <a href="#doces">Doces</a>
+        </div>
+        
+
+    <div class="Porções" id="Porções"> <h1>Porçoes</h1></div>
+
+<div class="link-card" onclick="abrirDetalhes('Peixe300g', 'FILÉ DE TILÁPIA 300G', 40.00,  '', '')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>FILÉ DE TILÁPIA 300G</h3>
+            <p>(filé de tilápia 300G (pesado cru), molho rosé e limão)</p>
+            <span class="preço">R$ 40,00</span> </div>
+        <div class="img-produto">
+            <img src="img/" alt="Peixe300g">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('Peixe500g', 'FILÉ DE TILÁPIA 500G', 58.00, 'A especialidade da casa', 'img/porçaodepeixe500g.png')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>FILÉ DE TILÁPIA 500G </h3>
+            <p>(filé de tilápia 500G (pesado cru),molho rosé e limão)</p>
+            <span class="preço">R$ 58,00 </span> </div>
+        <div class="img-produto">
+            <img src="img/porçaodepeixe500g.png" alt="Peixe500g">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('ContraFile300g', 'CONTRA FILÉ COM FRITAS 300G', 40.00 ,'' ,'')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>CONTRA FILÉ COM FRITAS 300G</h3>
+            <p>(Contra filé 200g, fritas 100g)</p>
+            <span class="preço">R$ 40,00</span></div>
+        <div class="img-produto">
+            <img src="img/" alt="ContraFile300g">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('ContraFile500g', 'CONTRA FILÉ COM FRITAS 500G, 55.00' ,'' ,'')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>CONTRA FILÉ COM FRITAS 500G </h3>
+            <p>(Contra filé 300g, fritas 200g)</p>
+            <span class="preço">R$ 55,00</span></div>
+        <div class="img-produto">
+            <img src="img/" alt="ContraFile500g">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('contrafilecommandioca300g', 'CONTRA FILÉ COM MANDIOCA 300G', 40.00,'' ,'')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>CONTRA FILÉ COM MANDIOCA 300G</h3>
+            <p>(Contra filé 200g, mandioca 100g)</p>
+            <span class="preço">R$ 40,00</span> </div>
+        <div class="img-produto">
+            <img src="img/" alt="contrafilecommandioca300g">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('contrafilecommandioca500g', 'CONTRA FILÉ COM MANDIOCA 500G', 55.00 ,'' ,'')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>CONTRA FILÉ COM MANDIOCA 500G </h3>
+            <p>(Contra filé 300g, mandioca 200g)</p>
+            <span class="preço">R$ 55,00</span> </div>
+        <div class="img-produto">
+            <img src="img/" alt="contrafilecommandioca500g">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('Costelinha300g', 'COSTELINHA COM MANDIOCA 300G ', 40.00 ,'' )" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>COSTELINHA COM MANDIOCA 300G </h3>
+            <p>(Costelinha 200g, mandioca 100g)</p>
+            <span class="preço">R$ 40,00</span> </div>
+        <div class="img-produto">
+            <img src="img/" alt="Costelinha300g">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('Costelinha500g', 'COSTELINHA COM MANDIOCA 500G', 55.00 ,'' )" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>COSTELINHA COM MANDIOCA 500G </h3>
+            <p>(Costelinha 300g, mandioca 200g)</p>
+            <span class="preço">R$ 55,00</span> </div>
+        <div class="img-produto">
+            <img src="img/" alt="Costelinha500g">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('Costelinhacomfritas300g','COSTELINHA COM FRITAS 300G ',40.00 ,'' )" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>COSTELINHA COM FRITAS 300G </h3>
+            <p>(Costelinha 200g, fritas 100g)</p>
+            <span class="preço">R$ 40,00 </span> </div>
+        <div class="img-produto">
+            <img src="img/" alt="Costelinhacomfritas300g">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('Costelinhacomfritas500g', 'COSTELINHA COM FRITAS 500G ', 55.00 ,'' )" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>COSTELINHA COM FRITAS 500G </h3>
+            <p>(Costelinha 300g, fritas 200g)</p>
+            <span class="preço">R$ 55,00</span> </div>
+        <div class="img-produto">
+            <img src="img/" alt="Costelinhacomfritas500g">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('Costelinha500g', 'COSTELINHA 500G', 58.00 ,'' )" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>COSTELINHA 500G </h3>
+            <p>(Costelinha 500g)</p>
+            <span class="preço">R$ 58,00</span> </div>
+        <div class="img-produto">
+            <img src="img/" alt="Costelinha500g">   
+        </div>
+    </article>
+</div>
+</div>
+
+  <div class="produtos" id="caldos"> <h1>Caldos</h1></div>
+
+  <div class="link-card" onclick="abrirDetalhes('caldodemandioca', 'Caldo de Mandioca', 18.00, 'Feito na Hora muito Saboroso' ,'img/caldodemandioca.png' )" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Caldo de Mandioca</h3>
+            <p>(Torresmo e Cebolinha)</p>
+            <span class="preço">R$ 18,00 </span> </div>
+        <div class="img-produto">
+            <img src="img/caldodemandioca.png" alt="caldodemandioca" >   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('cladodefeijao', 'Calado de Feijão', 18.00, 'Feito na Hora muito Saboroso', 'img/caldodefeijao.png')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Caldo de Mandioca</h3>
+            <p> (Torresmo e Cebolinha)</p>
+            <span class="preço">R$ 18,00</span> </div>
+        <div class="img-produto">
+            <img src="img/caldodefeijao.png" alt="cladodefeijao">   
+        </div>
+    </article>
+</div>
+</div>
+
+
+    <div class="produtos" id="cervejas"> <h1>Cervejas</h1></div>
+   
+ <div class="link-card" onclick="abrirDetalhes('amstel-473', 'Amstel 473ml Latão', 0.00,'Cerveja Leve e Refrescante.' , 'img/amstel.png')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Amstel 473ml Latão</h3>
+            <span class="preço">R$</span> </div>
+        <div class="img-produto">
+            <img src="img/amstel.png" alt="Amstel">   
+        </div>
+    </article>
+</div>
+</div>
+
+
+<div class="link-card" onclick="abrirDetalhes('brahma', 'Brahama 473ml Latão', 0.00,'Cerveja Pilsen, super gelada.', 'img/brahma.png')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Brahama 473ml Latão</h3>
+            <span class="preço">R$</span> </div>
+        <div class="img-produto">
+            <img src="img/brahma.png" alt="brahma">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('brahma', 'Brahama 600ml', 0.00,'Cerveja Puro Malte, super gelada.', 'img/brahma600.png')" style="cursor: pointer;" >
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Brahma 600ml</h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/brahma600.png" alt="brahma600ml"  >   
+        </div>
+    </article>
+</div>
+</div>
+
+
+
+<div class="link-card" onclick="abrirDetalhes('original', 'Original 473ml Latão', 0.00, 'Cerveja Pilsen, super gelada.', 'img/originallatao.png')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Original 473ml Latão</h3>
+            <span class="preço">R$</span> </div>
+        <div class="img-produto">
+            <img src="img/originallatao.png" alt="original473">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('original', 'Original 600ml', 0.00, 'Cerveja Pilsen, super gelada.', 'img/original600ml.png')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Original 600ml</h3>
+            <span class="preço">R$</span> </div>
+        <div class="img-produto">
+            <img src="img/original600ml.png" alt="original473">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('heineken', 'Heineken 473ml Latão', 0.00, 'Cerveja Puro Malte, super gelada.', 'img/heinekenlatao.png')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Heineken 473ml Latão</h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/heinekenlatao.png" alt="heinekenlatao">   
+        </div>
+    </article>
+</div>
+</div>
+
+
+<div class="link-card" onclick="abrirDetalhes('heineken', 'Heineken 473ml Sem Alcool', 0.00,'Cerveja Puro Malte, super gelada.', 'img/heinekenlataosemalcool.png')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Heineken 473ml Sem Alcool</h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/heinekenlataosemalcool.png" alt="heinekensemalcool">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('heinekenlongneck', ' Heineken Longneck', 0.00, 'Cerveja Puro Malte, super gelada.', 'img/heinekenlongneck.png')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Heineken Longneck</h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/heinekenlongneck.png" alt="heineken">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('heineken', 'Heineken 600ml', 0.00,'Cerveja Puro Malte, super gelada.', 'img/heinekenlongneck.png')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Heineken 600ml</h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/heinekenlongneck.png" alt="heineken600ml">   
+        </div>
+    </article>
+</div>
+</div>
+
+
+
+
+
+
+<div class="produtos" id="bebidas"><h1>Bebidas</h1></div>
+<div class="link-card" onclick="abrirDetalhes('agua', 'Agua 500ml', 0.00,'Super gelada.', 'img/agua500ml.png')" style="cursor: pointer;" >
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Agua 500 ml</h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/agua500ml.png" alt="agua">   
+        </div>
+    </article>
+</div>
+</div>
+
+
+<div class="link-card" onclick="abrirDetalhes('agua', 'Agua com Gás', 0.00, 'Super gelada.', 'img/aguacgas500ml.png')" style="cursor: pointer;" >
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Agua com Gás</h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/aguacgas500ml.png" alt="aguacomgas">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('Guarana', 'Guarana Lata', 0.00, 'Super gelada.', 'img/guaranalata.png')" style="cursor: pointer;" >
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Guarana Lata</h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/guaranalata.png" alt="guarana">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('Guarana', 'Guarana 2 Litros', 0.00, 'Super gelada.', 'img/guarana2lt.png')" style="cursor: pointer;" >
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Guarana 2 Litros</h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/guarana2lt.png" alt="Guarana2lt">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('Guarana', 'Guarana Lata', 0.00, 'Super gelada.', 'img/cocalata.png')" style="cursor: pointer;" >
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Coca-Cola Lata </h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/cocalata.png" alt="coca-cola">   
+        </div>
+    </article>
+</div>
+</div>
+
+
+<div class="link-card" onclick="abrirDetalhes('Coca-Cola ', 'Cola-Cola 600ml', 0.00, 'Super Gelada', 'img/coca600ml.png')" style="cursor: pointer;">
+    <article class="card-produto">
+    <div class="info-produto">
+    <h3>Coca-Cola 600ml</h3>
+    <span class="preco">R$</span></div>
+   <div class="img-produto">
+    <img src="img/coca600ml.png" alt="">
+   </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('Coca-Cola KS', 'Cola-Cola KS', 0.00, 'Super Gelada', 'img/cocaks.png')" style="cursor: pointer;">
+    <article class="card-produto">
+    <div class="info-produto">
+    <h3>Coca-Cola KS</h3>
+    <span class="preco">R$</span></div>
+   <div class="img-produto">
+    <img src="img/cocaks.png" alt="">
+   </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('Coca-Cola ', 'Cola-Cola 2 Litros', 0.00, 'Super Gelada', 'img/coca2lt.png')" style="cursor: pointer;">
+    <article class="card-produto">
+    <div class="info-produto">
+    <h3>Coca-Cola 600ml</h3>
+    <span class="preco">R$</span></div>
+   <div class="img-produto">
+    <img src="img/coca2lt.png" alt="">
+   </div>
+    </article>
+</div>
+</div>
+
+
+<div class="link-card" onclick="abrirDetalhes('suco-del-valle', 'Suco Del Valle', 0.00, '', 'img/sucodellvalle.png', 'Uva,Pêssego,Manga,Maracujá,Caju,Goiaba')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Suco Del Valle</h3>
+            <span class="preço">R$ 6,00</span> </div>
+        <div class="img-produto">
+            <img src="img/sucodellvalle.png" alt="Suco">   
+        </div>
+    </article>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('pergola', 'Pergola Dose', 0.00, '', 'img/pergola.png')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Pergola Dose</h3>
+            <span class="preço">R$ </span> </div>
+        <div class="img-produto">
+            <img src="img/pergola.png" alt="Suco">   
+        </div>
+    </article>
+</div>
+
+
+
+<div class="produtos" id="destilados"><h1>Destilados</h1></div>
+
+<div class="link-card" onclick="abrirDetalhes('campari', 'Campari Dose', 10.00 ,'', 'img/campari.png')" style="cursor: pointer;" >
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Campari Dose</h3>
+            <span class="preço">R$ 10,00</span></div>
+        <div class="img-produto">
+            <img src="img/campari.png" alt="original600ml">   
+        </div>
+    </article>
+</div>
+</div>
+
+
+<div class="link-card" onclick="abrirDetalhes('Vodka','Vodka Dose', 10.00, '', 'img/vodka.jpg')" style="cursor: pointer;">
+ <article class="card-produto">
+    <div class="info-produto">
+    <h3>Vodka Dose</h3>
+    <span class="preço">R$ 10,00 </span> </div>
+    <div class="img-produto">
+        <img src="img/vodka.jpg" alt="">
+    </div>
+ </article>
+</div>
+</div>
+
+
+<div class="link-card" onclick="abrirDetalhes('Domeq','Domeq Dose', 0.00, '', 'img/domeq.png')" style="cursor: pointer;">
+ <article class="card-produto">
+    <div class="info-produto">
+    <h3>Domeq Dose</h3>
+    <span class="preço">R$ 5,00</span></div>
+    <div class="img-produto">
+        <img src="img/domeq.png" alt="">
+    </div>
+ </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('Presidente','Presidente Dose', 5.00, '', 'img/presidente51.png')" style="cursor: pointer;">
+ <article class="card-produto">
+    <div class="info-produto">
+    <h3>Presidente Dose</h3>
+    <span class="preço">R$ 5,00</span></div>
+    <div class="img-produto">
+        <img src="img/presidente51.png" alt="">
+    </div>
+ </article>
+</div>
+</div>
+
+
+<div class="link-card" onclick="abrirDetalhes('Presidente','Presidente Dose', 0.00)" style="cursor: pointer;">
+ <article class="card-produto">
+    <div class="info-produto">
+    <h3>Cachaça Dose</h3>
+    <p>Bento Velho, Beto Cachaça, Pinga do Chiquinho</p>
+    <span class="preço">R$ 5,00</span>
+    <div class="img-produto">
+        <img src="img/" alt="">
+    </div>
+ </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('whiskyredlabel','Whisky Red Label Dose', 0.00, '', 'img/whisky.png')" style="cursor: pointer;">
+ <article class="card-produto">
+    <div class="info-produto">
+    <h3>Whisky Red Label Dose</h3>
+    <span class="preço">R$</span></div>
+    <div class="img-produto">
+        <img src="img/whisky.png" alt="">
+    </div>
+ </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('MontilaRum','Montila Rum Dose', 0.00, '', 'img/montila.png')" style="cursor: pointer;">
+ <article class="card-produto">
+    <div class="info-produto">
+    <h3>Montila Rum Dose</h3>
+    <span class="preço">R$ </span></div>
+    <div class="img-produto">
+        <img src="img/montila.png" alt="">
+    </div>
+ </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('josecuervo', 'Jose Cuervo Dose', 0.00, '', 'img/josecuervotequila.png')" style="cursor: pointer;" >
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Jose Cuervo Dose</h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/josecuervotequila.png" alt="original600ml">   
+        </div>
+    </article>
+</div>
+</div>
+
+
+<div class="produtos" id="doces"><h1>Doces</h1> 
+
+<div class="link-card" onclick="abrirDetalhes('laka', 'Lacta Laka', 0.00, '' , 'img/lacta laka.png')" style="cursor: pointer;" >
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Laka</h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/lacta laka.png" alt="">   
+        </div>
+    </article>
+</div>
+</div>
+  
+
+<div class="link-card" onclick="abrirDetalhes('lactadiamantenegro', 'Lacta Diamante Negro', 0.00, '', 'img/laka diamante negro.png')" style="cursor: pointer;" >
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Lacta Diamante Negro</h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/laka diamante negro.png" alt="">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('choquito', 'Choquito', 0.00, '' , 'img/choquito.png' )" style="cursor: pointer;" >
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Choquito</h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/choquito.png" alt="">   
+        </div>
+    </article>
+</div>
+</div>
+
+<div class="link-card" onclick="abrirDetalhes('trento', 'Trento', 0.00, '', 'img/trento.png', 'Branco-Dark,Avelã,Morango,Torta de Limão,Mouse de Maracuja,Milk, Torta de Maçã')" style="cursor: pointer;">
+    <article class="card-produto">
+        <div class="info-produto">
+            <h3>Trento</h3>
+            <span class="preço">R$</span></div>
+        <div class="img-produto">
+            <img src="img/trento.png" alt="">   
+        </div>
+    </article>
+</div>
+</div>
+
+
+  
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="modal-produto" class="modal-fundo">
+    <div class="modal-caixa">
+        <div class="detalhe-container" style="background-color: transparent; padding: 0;">
+            <button class="btn-fechar" onclick="fecharModalProduto()" style="float: right;">Voltar</button>
+            
+            <div class="destaque-imagem">
+                <img id="modal-img">
+            </div>
+            <div class="informaçao-produtos">
+
+                
+                <div id="area-sabores" style="display: none; margin-top: 15px;">
+                <label for="selecao-sabor" style="color:#FFC107; font-weight: bold; display: block; margin-bottom: 5px;">Escolha o sabor :</label>
+                <select  id="selecao-sabor"></select>
+                <span id="modal-preco" class="preco-grande">R$ 0.00</span>
+                </div>
+
+                <h1 id="modal-nome"></h1>
+                <p id="modal-desc" class="informaçao-adicionais"></p>
+            </div>
+
+            <input type="hidden" id="modal-id-produto">
+            <input type="hidden" id="modal-preco-real">
+
+            <div class="selecao-quantidade">
+                <button class="btn-qtd" onclick="diminuir()">-</button>
+               <input type="number"  id="quantidade" value="1" readonly>
+                <button class="btn-qtd" onclick="aumentar()">+</button>
+            </div>
+            
+
+
+
+
+
+
+
+
+            <button class="botao-pedir" onclick="adicionarAoCarrinhoDinamico()">Adicionar ao carrinho</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<nav class="menuinferior">
+    <a href="index.html" class="item-menu">
+        <span class ="icone">🏠</span>
+        <span class="texto">Cárdapio</span>
+    </a> 
+    <a href="carrinho.html" class="item-menu" onclick="verCarrinho()">
+        <div class="icone-com-badge">
+        <span class="icone">🛒</span>
+        <span id="contagem-carrinho" class="badge">0</span>
+        </div>
+      <span class="texto">Carrinho</span>
+    </a>
+</nav>
+
+
+
+
+<script src="script.js"></script>
+   
+</body>
+</html>
